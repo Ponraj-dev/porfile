@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"> </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+   <div id='header'>
+        <div class="container">
+            <nav>
+                <img src="image/logo.png" class="logo" >
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a> </li>
+                    <li><a href="#about">About</a> </li>
+                    <li><a href="#services">Service</a> </li>
+                    <li><a href="#portfolio">profile</a> </li>
+                    <li><a href="#contact">Contact</a> </li>
+                     <i class="fas fa-times"  onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hello, Its me</p>
+                <h1> Ponraj  Athi moolam<br> I'm a  <span class="multiple-text"></span></h1>
+            </div>
+        </div>
+   </div>
+
+   <!--- about page -->
+
+
+
+   <div id='about'>
+        <div class='container'>
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/new1.png" class="new3">
+                </div>
+                <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                    <p class="abt-para"  data-aos="fade-up" data-aos-duration="1000">Hello there, I am Ponraj  from tirunelveli ,I'm a Bsc gratudatee and also proud 
+                    to have completed the foundation in programming and Data science course offerd by IIT madras.
+                    I'm a football player and  also a trained martial artist (silambam) in school days. I'm a diligent and self motivated 
+                    person ,I am passionated about technology and constantly strive to improve my skills and knowledge in the field of IT 
+
+
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')"> Education</p>
+                        <p class="tab-links" onclick="opentab('Achievement')"> Achievement </p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> 
+                        <ul>
+                            <li><span>UI/UX</span> <br> Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span> <br> Web App Development</li>
+                            <li><span>App Development</span> <br> Building Android apps</li>
+                        </ul>
+                    </div>
+
+                      <div class="tab-contents" id="Achievement">
+                        <ul>
+                            <li><span>Paper presentation -1st </span> <br> <br>kpr Engineering college    -coimbatore <br>
+                            American college of Egineering   -madurai <br>
+                            francis Xavier  Egineering college -tirunelveli <br>
+                            
+                            <li><span>Debugging -2nd</span> <br> <br>francis Xavier  Egineering college -tirunelveli </li>
+                        </ul>
+                    </div>
+
+                      <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Bsc.Information technology </span> <br> sadakathullah appa college -tirunelveli</li>
+                            <li><span>foundation in Data science</span> <br> Indian Institute of Technology -chennai</li>
+                            <li><span>Google Developer</span> <br>Android apps -online</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!---servies --->
+
+<div class='services' id="services">
+    <div class="container">
+    <h1 class="sub-title"> My serives</h1>
+    <div class="services-list">
+    <div data-aos="flip-left" data-aos-duration="1500">
+    <i class='fas fa-code' ></i>
+        <h2> Web design</h2>
+         <p>Why do we compare texts? Here are a few reasons why comparing and contrasting 
+        texts is an important skill for upper elementary readers:</p>
+        <a href="#">learn more</a>
+    </div>
+    <div  data-aos="flip-left" data-aos-duration="1500">
+    <i class='fas fa-crop-alt'></i>
+        <h2>UI/UX</h2>
+        
+         <p>Why do we compare texts? Here are a few reasons why comparing and contrasting 
+         texts is an important skill for upper elementary readers:</p>
+        <a href="#">learn more</a>
+    </div>
+    <div  data-aos="flip-left" data-aos-duration="1500">
+     <i class='fab fa-app-store'></i>
+        <h2>App design</h2>
+       
+         <p>Why do we compare texts? Here are a few reasons why comparing and contrasting 
+        texts is an important skill for upper elementary readers:</p>
+        <a href="#">learn more</a>
+    </div>
+    </div>
+</div>
+</div>
+<!--- profile -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My works</h1>
+        <div class="work-list">
+        <div class="work">
+            <img src="image/img 1.jpg" >
+            <div class="layer">
+                <h3>Voice assistant</h3>
+                <p>Why do we compare texts? Here are a few reasons why comparing and contrasting </p>
+                 <a href="#"> <i class="fas fa-external-link-alt"></i> </a>  
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/img 2.jpg" >
+            <div class="layer">
+                <h3>Voice calculator</h3>
+                <p>Why do we compare texts? Here are a few reasons why comparing and contrasting </p>
+                 <a href="https://ponraj-dev.github.io/voice-calculator/"> <i class="fas fa-external-link-alt"></i> </a>  
+            </div>
+        </div>
+        <div class="work">
+            <img src="image/img 3.jpg">
+            <div class="layer">
+                <h3>to do list</h3>
+                <p>Why do we compare texts? Here are a few reasons why comparing and contrasting </p>
+                 <a href="https://ponraj-dev.github.io/Do-IT/"> <i class="fas fa-external-link-alt"></i> </a>  
+            </div>
+        </div>
+        </div>
+        <a href="https://github.com/Ponraj-dev" class="btn"> See more</a>
+    </div>
+</div>
+
+
+
+<!-- contact-->
+<div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>ponrajiitm@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9150952606 </p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/ponraj._.dev/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ponraj-a-8a2a7025b/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ponraj-dev"><i class="fab fa-github"></i></a>
+                </div>
+                <a href="image/Resume.pdf"  class="btn btn2" download >Download CV</a>
+             </div>
+            <div class="contact-right">
+            <form name='submit-to-google-sheet'>
+                 <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit"  class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"> </span>
+            </div> 
+       </div>
+    </div>
+    <div class="copyright">
+         <p>Ponraj  <i class="fab fa-app-store">  </i> Developer</p>
+    </div>
+</div>
+
+
+<script>
+     var tablinks =document.getElementsByClassName("tab-links");
+     var tabcontents =document.getElementsByClassName("tab-contents");
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab')
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add('active-tab')
+
+     }
+
+
+
+</script>
+
+<script>
+     var sidemenu =document.getElementById("sidemenu");
+
+     function openmenu(){
+        sidemenu.style.right ="0";
+     }
+      function closemenu(){
+        sidemenu.style.right ="-200px";
+     }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbygs0B6wyjQUJPrdgnWfsIu296jTRpoUTzgJA7mp4jKqks-3_yQRlIKkhuMGUDye20/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="message sent successfully";
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset();
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+
+<script>
+    var typed = new Typed(".multiple-text",{
+    strings:["Frondend Developer,","UI/UX designer","data sciencetist"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+})
+</script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
