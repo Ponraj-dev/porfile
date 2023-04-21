@@ -1,3 +1,4 @@
 # porfile
 my_personal_profile
-![image](https://user-images.githubusercontent.com/110389942/233678123-7b08224b-5aac-4973-b039-4596ad571fa1.png)
+![main](https://user-images.githubusercontent.com/110389942/233678360-5ff0b6d0-a34a-45af-8386-2a7170071290.jpg)
+
